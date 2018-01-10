@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="assets/lib/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
+    <link href="assets/style/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/style/styles.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body style="padding: 0 50px;" ng-controller="angular.table.controller as vm">
+    <pre>{{vm.data|json}}</pre>
+
+    <angular-table
+        header="vm.header"
+        data="vm.data"
+        selectable="true"
+    ></angular-table>
+
+    <script src="assets/lib/angular/angular.min.js"></script>
+    <script src="assets/lib/jquery/dist/jquery.min.js"></script>
+    <script src="assets/style/bootstrap/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
