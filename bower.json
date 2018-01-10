@@ -1,0 +1,25 @@
+{
+  "name": "angular-table",
+  "homepage": "https://github.com/frankTadlip/angular-table",
+  "authors": [
+    "frank tadlip <frank@bizbox.ph>"
+  ],
+  "description": "table for angular",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/lib/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "awesome-bootstrap-checkbox": "^1.0.0",
+    "angular": "v1.5.5",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.4"
+  }
+}
